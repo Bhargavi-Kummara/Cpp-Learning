@@ -1,0 +1,26 @@
+There are four most important concepts of object oriented programming
+They are: 1. Encapsulation
+          2. Abstraction
+          3. Inheritance
+          4. Polymorphism
+
+1. Encapsulation: Idea of bundling data together with methods in a class. We do this to prevent
+                  anyone or anything outside of our class to be able to 'directly' access our data
+                  and to interact it or to modify it.
+
+2. Abstraction: Abstraction is hiding complex things behind a procedure that makes those things look 
+                simple. Example: Taking pictures in smart phone is simple that we just press a button,
+                but that is not just simple because for us it's just a button click, but for a company
+                that makes smart phones there is a much more complex logic that they need to implement 
+                inorder for us to be able to press a button and take a picture. This process of hiding
+                that complexity from user is called Abstraction.
+
+3. Inheritance: The capability of a class to derive properties and characteristics from another class is
+                called Inheritance. In simple words, it allows us to create a new derived class from an 
+                existing base class. The derived class inherits the features from the base class and can
+                also have additional features on its own.
+
+4. Polymorphism: Coming from greek words 'poly' and 'morph' which means 'many forms'. In programming 
+                 Polymorphism describes the ability of an object or a method to have many forms. Most 
+                 common use of Polymorphism in programming is when a parent class reference is used to 
+                 refer to a object of child class.
