@@ -5,7 +5,7 @@ using namespace std;
 
 struct companyDetails {
     string companyName;
-    string resignation;
+    string profile;
     int monthlySalary;
     unsigned int workExpInYears;
 };
@@ -18,7 +18,7 @@ struct personInfo {
 
 void printCompanyDetails(const companyDetails company) {
     cout << "Company name: " << company.companyName << endl;
-    cout << "Job resignation: " << company.resignation << endl;
+    cout << "Job profile: " << company.profile << endl;
     cout << "Monthly salary: " << company.monthlySalary << " dollars" << endl;
     cout << "Work experience in years: " << company.workExpInYears <<  endl;
     cout << "\n";
@@ -42,17 +42,17 @@ int main()
     companyDetails company3;
 
     company1.companyName = "Google Inc.";
-    company1.resignation = "Software Engineer";
+    company1.profile = "Software Engineer";
     company1.monthlySalary = 8000;
     company1.workExpInYears = 2;
 
     company2.companyName= "Robert Bosch";
-    company2.resignation = "Hardware Engineer";
+    company2.profile = "Hardware Engineer";
     company2.monthlySalary = 9800;
     company2.workExpInYears = 3;
 
     company3.companyName = "Infosys";
-    company3.resignation = "System Engineer";
+    company3.profile = "System Engineer";
     company3.monthlySalary = 3000;
     company3.workExpInYears = 1;
 
